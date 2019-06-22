@@ -4,7 +4,7 @@ import sys
 
 def searchQuery(query):
     print(query)
-    search = wikipedia.search(query)
+    search = wikipedia.search(query, results=1)
     return search
 
 
